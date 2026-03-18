@@ -1,0 +1,15 @@
+hf-models/
+ollama-models/
+LLaMA-Factory/
+exports/
+saves/
+.venv*/
+__pycache__/
+*.gguf
+*.safetensors
+*.bin
+*.pt
+*.pth
+k8_records.json
+k8_sft_sharegpt.json
+1/

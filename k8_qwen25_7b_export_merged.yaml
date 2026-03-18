@@ -1,0 +1,10 @@
+model_name_or_path: C:/888/hf-models/Qwen2.5-7B-Instruct
+adapter_name_or_path: saves/k8-qwen25-7b/qlora/sft
+template: qwen
+finetuning_type: lora
+trust_remote_code: true
+
+export_dir: exports/k8-qwen25-7b/merged-single
+export_size: 50
+export_device: cpu
+infer_dtype: float16
